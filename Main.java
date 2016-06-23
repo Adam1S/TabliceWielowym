@@ -29,6 +29,7 @@ public class Main {
         System.out.println("Setny element tablicy longtab to: "+longTab[99]);
         System.out.println("Wielkosc tablicy hugetab: "+hugeTab.length);
 
-
+        System.out.println(hugeTab[0][99]); //niesamowite: odwoluje sie do 99elementu tablicy zawartej w tablicy
+        //pozwala to na stworzenie nieprostokatnych tablic :o
     }
 }
